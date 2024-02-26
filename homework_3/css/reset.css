@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    padding: 80;
+    margin: 10;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:blueviolet; /* inherit примусово успадковує загальний колір. Все в чорному */
+}
+
+li{
+    list-style:disc; /* Прибирає маркування */
+}
+
+img{
+    vertical-align: top; /* Прибирає відступ від зображення, який сам по собі з'являється. Ледве помітний. */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit; /* Успадковує загальний розмір шрифта и товщину. */
+}
+
+html,
+body{
+    height: 100%;
+    line-height: 1;
+}
+
+textarea,
+button,
+input{
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+button{
+    cursor: pointer;
+    background-color: inherit;
+}
+
